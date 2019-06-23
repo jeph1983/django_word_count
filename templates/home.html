@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h1>Welcome to the word count website {{firstname}} {{lastname}} </h1>
+    <h2>This will be a very fun word counter...</h2>
+    <h2>Are you ready????????</h2>
+    <h3>Please enter the words in the box so we can tell you how many words there are: </h3>
+    <form class="" action="{% url 'count'%}" method="">
+      <textarea name="fulltext" rows="8" cols="80"></textarea><br>
+
+      <input type="submit" name="" value="count">
+
+    </form>
+<h2>Click the link below to go to the About page</h2>
+<a href="{%url 'about' %}">About</a>
+  </body>
+</html>
